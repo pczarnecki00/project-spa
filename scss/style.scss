@@ -1,0 +1,18 @@
+
+@import 'base/settings';
+@import 'utils/mixins';
+
+@import 'base/normalize';
+@import 'base/global';
+@import 'components/background';
+
+
+@import 'layout/nav';
+@import 'layout/home';
+@import 'layout/about';
+@import 'layout/treatment';
+@import 'layout/team';
+@import 'layout/reserve-form';
+@import 'layout/blog';
+@import 'layout/contact';
+@import 'layout/footer';

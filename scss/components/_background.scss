@@ -1,0 +1,31 @@
+.bg-right {
+    position: absolute;
+    right:0px;
+    width:42%;
+    z-index: 20;
+    @media (max-width:1040px){
+        width:35%;
+    }
+    @media (max-width: 800px) {
+        display: none;
+    }
+}
+.bg-left {
+    position: absolute;
+    top:140px;
+    width:16%;
+    left:-50px;
+    z-index: -1;
+    @media (max-width:1366px){
+        width:10%;
+    }
+    @media (min-width:640px) and (max-width:800px) {
+        top:175px;
+        left:-15px;
+
+    }
+    @media (max-width: 640px) {
+        width: 10%;
+        left:-15px;
+    }
+}

@@ -1,0 +1,12 @@
+.blog {
+    .container-row-item {
+        span {
+            color: #888888;
+            font-family: $first-font;
+            margin: 25px 0 0 0;
+            display: inline-block;
+            font-size: $second-font-size;
+            font-weight: 300;
+        }
+    }
+}
